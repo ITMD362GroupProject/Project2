@@ -1,7 +1,11 @@
+html {
+  font-family: "Special Elite", "LectraBold", "Distressed Telegraph", "Architects Daughter", sans-serif;
+}
 /* nav bar css */
 #nav-bar1 { 
   background-color: black;
   overflow: hidden;
+  font-size: 1.875em;
 }
 #onpage1 {
   background-color: #442A00;
@@ -28,8 +32,16 @@
   left: 50%;
   float: left;
 }
+#nav-bar1 ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
 /* home page css */
 #home h1 {
   background-color: #AA7F39;
   color: white;
+  font-size: 2.5em;
+  padding: 1em;
 }
