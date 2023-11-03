@@ -1,27 +1,24 @@
 /* nav bar css */
 #nav-bar1 { 
-  background-color: white;
+  background-color: black;
   overflow: hidden;
 }
 #onpage1 {
-  background-color: #cccccc;
+  background-color: #442A00;
   text-decoration-style: double;
 }
 #nav-bar1 ul li a {
   display: block;
   padding: 10px 20px;
-  color: #000;
+  color: white;
   text-decoration: none;
-  background-color: white;
-}
-#nav-bar1 ul li a:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: black;
 }
 #nav-contain {
   float: left;
   width: 100%;
   position: relative;
+  border: 1em dashed white;
 }
 #nav-bar1 ul {
   list-style-type: none;
@@ -30,4 +27,9 @@
   position: relative;
   left: 50%;
   float: left;
+}
+/* home page css */
+#home h1 {
+  background-color: #AA7F39;
+  color: white;
 }
