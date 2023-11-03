@@ -1,0 +1,33 @@
+/* nav bar css */
+#nav-bar1 { 
+  background-color: white;
+  overflow: hidden;
+}
+#onpage1 {
+  background-color: #cccccc;
+  text-decoration-style: double;
+}
+#nav-bar1 ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #000;
+  text-decoration: none;
+  background-color: white;
+}
+#nav-bar1 ul li a:hover {
+  background-color: #000;
+  color: #fff;
+}
+#nav-contain {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#nav-bar1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
