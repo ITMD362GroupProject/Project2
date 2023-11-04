@@ -1,5 +1,9 @@
+@font-face {
+  font-family: SpecialElite;
+  src=url(media/SpecialElite-Regular.ttf);
+}
 html {
-  font-family: "Special Elite", "LectraBold", "Distressed Telegraph", "Architects Daughter", sans-serif;
+  font-family: "SpecialElite", "LectraBold", "Distressed Telegraph", "Architects Daughter", sans-serif;
 }
 /* nav bar css */
 #nav-bar1 { 
@@ -12,7 +16,7 @@ html {
   text-decoration-style: double;
 }
 #nav-bar1 ul li a {
-  display: block;
+  display: block;S
   padding: 10px 20px;
   color: FFE1AF;
   text-decoration: none;
@@ -42,8 +46,12 @@ html {
 #home h1 {
   background-color: #AA7F39;
   color: FFE1AF;
-  font-size: 2.5em;
+  font-size: 3 em;
   padding: 1em;
+}
+#home main {
+  width: 80%;
+  padding: 1.2em;
 }
 /*Slideshow*/
 .slideshow-container {
@@ -132,4 +140,13 @@ footer {
 #footer img {
   height: auto;
   width: 140px
+}
+@media (min-width: 900px) {
+  
+  
+}
+@media (min-width: 1200px) {
+  
+  
+  
 }
