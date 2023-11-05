@@ -79,11 +79,15 @@ html {
 #homeBusiness {
   position: absolute;
   color: #442A00;
-  left: 18rem;
   top: 2rem;
   background-color: white;
   padding: 0 1rem;
-  width: 400px;
+}
+.medium {
+  display: none;
+}
+.large {
+  display: none;
 }
 .image-text-container {
   position: relative;
@@ -131,11 +135,24 @@ footer {
   grid-column: 2 / 3;
 }
 @media (min-width: 900px) {
-  
-  
+  .small {
+    display: none;
+  }
+  .medium {
+    display: inline;
+  }
+  .large {
+    display: none;
+  }
 }
 @media (min-width: 1200px) {
-  
-  
-  
+  .small {
+    display: none;
+  }
+  .medium {
+    display: none;
+  }
+  .large {
+    display: inline;
+  }
 }
