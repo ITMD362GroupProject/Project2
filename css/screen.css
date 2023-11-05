@@ -18,7 +18,7 @@ html {
 #nav-bar1 ul li a {
   display: block;
   padding: 10px 20px;
-  color: FFE1AF;
+  color: #FFE1AF;
   text-decoration: none;
   background-color: black;
 }
@@ -26,7 +26,7 @@ html {
   float: left;
   width: 100%;
   position: relative;
-  border: 1em dashed FFE1AF;
+  border: 1em dashed #FFE1AF;
 }
 #nav-bar1 ul {
   list-style-type: none;
@@ -46,7 +46,7 @@ html {
 #home h1 {
   background-color: #AA7F39;
   color: FFE1AF;
-  font-size: 3 em;
+  font-size: 3em;
   padding: 1em;
 }
 #home main {
@@ -79,11 +79,11 @@ html {
 #homeBusiness {
   position: absolute;
   color: #442A00;
-  left: 35%;
+  left: 18rem;
   top: 2rem;
   background-color: white;
   padding: 0 1rem;
-  width: 70%;
+  width: 400px;
 }
 .image-text-container {
   position: relative;
