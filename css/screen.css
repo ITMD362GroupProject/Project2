@@ -82,10 +82,11 @@ html {
   list-style-type: none;
 }
 #homeBusiness {
+  position: absolute;
   color: #442A00;
   background-color: white;
   padding: 0 1rem;
-  width: 80%;
+  width: 60%;
   border: 0.25em dashed #442a00;
   text-wrap: wrap;
   margin-left: 20%;
@@ -140,6 +141,7 @@ footer {
 #footerLogo {
   display: block;
   text-wrap: wrap;
+  margin: 5%;
 }
 #footerLinks a {
   color: #442a00;
@@ -148,13 +150,25 @@ footer {
 #footerImportantInfo {
   display: block;
   text-wrap: wrap;
+  margin: 5%;
 }
 #footerLinks {
   display: block;
   text-wrap: wrap;
+  margin: 5%;
 }
-#footer h3 {
-  font-size: 1.8em;
+#footerLinks h3 {
+  font-size: 2em;
+}
+#footerLinks ul li {
+  text-decoration: none;
+  font-size: 1em;
+}
+#footerImportantInfo h3 {
+  font-size: 2em;
+}
+#footerImportantInfo p, #footerLogo a, #footerLinks a {
+  font-size: 1em;
 }
 @media (min-width: 900px) {
   .image-text-container img {
