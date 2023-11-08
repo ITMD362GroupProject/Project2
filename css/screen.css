@@ -20,7 +20,7 @@ html {
   padding: 10px 20px;
   color: #FFE1AF;
   text-decoration: none;
-  background-color: #AA7F39;
+  background-color: #442A00;
 }
 #nav-contain {
   float: left;
@@ -45,7 +45,7 @@ html {
 /* home page css */
 #home h1 {
   background-color: #AA7F39;
-  color: black;
+  color: #442A00;
   font-size: 3em;
   padding: 1em;
   text-align: center;
@@ -83,8 +83,6 @@ html {
   list-style-type: none;
 }
 #homeBusiness {
-  position: relative;
-  float: right;
   color: #442A00;
   background-color: white;
   padding: 0 1rem;
@@ -95,14 +93,12 @@ html {
   top: 1rem;
 }
 .image-text-container {
-  position: relative;
   width: 90%;
   margin-left: 5%;
 }
 .image-text-container img {
   width: 50%;
-  float: left;
-  margin: 5%;
+  margin: auto;
 }
 /* social media icons */
 .fa-instagram {
