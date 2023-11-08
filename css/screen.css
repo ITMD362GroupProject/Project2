@@ -26,7 +26,7 @@ html {
   float: left;
   width: 100%;
   position: relative;
-  border: 1em dashed #FFE1AF;
+  border: 0.25em dashed #FFE1AF;
 }
 #nav-bar1 ul {
   list-style-type: none;
@@ -48,6 +48,7 @@ html {
   color: FFE1AF;
   font-size: 3em;
   padding: 1em;
+  text-align: center;
 }
 #home main {
   width: 80%;
@@ -55,23 +56,27 @@ html {
 }
 #home h2 {
   font-size: 2em;
-  color: #775113
+  color: #775113;
+  line-height: 1.5em;
 }
 #homeBusiness a {
   color: #442A00;
   font-size: 2em;
   text-decoration: none;
+  line-height: 1.5em;
 }
 #home p {
   color: black;
   font-size: 1.5em;
   margin-left: 1em;
+  line-height: 1.25em;
 }
 #homeBusiness ul li {
   font-size: 1.5em;
   text-decoration: none;
   margin-left: 1em;
   color: black;
+  line-height: 1.25em;
 } 
 #homeBusiness ul {
   list-style-type: none;
@@ -83,10 +88,10 @@ html {
   background-color: white;
   padding: 0 1rem;
 }
-.medium {
+.medium img {
   display: none;
 }
-.large {
+.large img {
   display: none;
 }
 .image-text-container {
@@ -115,44 +120,50 @@ footer {
   background-color: #AA7F39;
   display: grid;
   justify-items: end;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
+  grid-template-columns: auto auto auto;
+  align-items: flex-start;
+  line-height: 1.5em;
 }
 #footer img {
   height: auto;
-  width: 100px;
+  width: 20%;
+  float: left;
+}
+#footer a {
+  color: #442a00;
+  font-size: 1.5em;
 }
 #footerLogo {
-  display: inline-block;
+  display: block;
   grid-column: 1 / 3;
 }
 #footerImportantInfo {
-  display: inline-block;
+  display: block;
   grid-column: 2 / 3;
 }
 #footerLinks {
-  display: inline-block;
+  display: block;
   grid-column: 2 / 3;
 }
 @media (min-width: 900px) {
-  .small {
+  .small img {
     display: none;
   }
-  .medium {
+  .medium img {
     display: inline;
   }
-  .large {
+  .large img {
     display: none;
   }
 }
 @media (min-width: 1200px) {
-  .small {
+  .small img {
     display: none;
   }
-  .medium {
+  .medium img {
     display: none;
   }
-  .large {
+  .large img {
     display: inline;
   }
 }
