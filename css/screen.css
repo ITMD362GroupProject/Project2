@@ -20,7 +20,7 @@ html {
   padding: 10px 20px;
   color: #FFE1AF;
   text-decoration: none;
-  background-color: black;
+  background-color: #AA7F39;
 }
 #nav-contain {
   float: left;
@@ -45,7 +45,7 @@ html {
 /* home page css */
 #home h1 {
   background-color: #AA7F39;
-  color: FFE1AF;
+  color: black;
   font-size: 3em;
   padding: 1em;
   text-align: center;
@@ -53,9 +53,7 @@ html {
 #home main {
   width: 80%;
   padding: 1.2em;
-  display: flex;
-  gap: 1em;
-  flex-direction:column;
+  background-color: #FFE1AF;
 }
 #home h2 {
   font-size: 1.5em;
@@ -86,8 +84,7 @@ html {
 }
 #homeBusiness {
   position: relative;
-  display:flex;
-  gap: 1em;
+  float: right;
   color: #442A00;
   background-color: white;
   padding: 0 1rem;
@@ -103,10 +100,9 @@ html {
   margin-left: 5%;
 }
 .image-text-container img {
-  margin-left: auto;
-  margin-right: auto;
   width: 50%;
   float: left;
+  margin: 5%;
 }
 /* social media icons */
 .fa-instagram {
@@ -134,7 +130,7 @@ footer {
   align-items: flex-start;
   line-height: 1.5em;
   text-wrap: wrap;
-  margin-top: 5%;
+  margin-top: 5%
 }
 #footerLogo img {
   height: auto;
