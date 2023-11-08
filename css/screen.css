@@ -53,6 +53,7 @@ html {
 #home main {
   width: 80%;
   padding: 1.2em;
+  background-color: #FFE1AF;
 }
 #home h2 {
   font-size: 1.5em;
@@ -130,14 +131,9 @@ footer {
   text-wrap: wrap;
   display: grid;
 }
-#footerLogo img {
-  height: auto;
-  width: 20%;
-  float: left;
-}
 #footerLogo a {
   color: #442a00;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 #footerLogo {
   display: block;
@@ -146,7 +142,7 @@ footer {
 }
 #footerLinks a {
   color: #442a00;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 #footerImportantInfo {
   display: block;
@@ -159,16 +155,16 @@ footer {
   margin: 5%;
 }
 #footerLinks h3 {
-  font-size: 2em;
+  font-size: 1em;
 }
 #footerLinks ul li {
   text-decoration: none;
-  font-size: 1em;
+  font-size: 0.75em;
 }
 #footerImportantInfo h3 {
-  font-size: 2em;
+  font-size: 1em;
 }
-#footerImportantInfo p, #footerLogo a, #footerLinks a {
+#footerImportantInfo p {
   font-size: 1em;
 }
 @media (min-width: 900px) {
@@ -190,8 +186,6 @@ footer {
     width: 40%;
     float: left;
     margin-left: 5%;
-  }
-    top: 1rem;
   }
   #home h2 {
     font-size: 2em;
@@ -224,5 +218,9 @@ footer {
     width: 50%;
     float: left;
     margin-left: 5%;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
   }
 }
