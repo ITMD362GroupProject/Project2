@@ -82,11 +82,11 @@ html {
   list-style-type: none;
 }
 #homeBusiness {
-  position: absolute;
+  position: relative;
   color: #442A00;
   background-color: white;
   padding: 0 1rem;
-  width: 60%;
+  width: 70%;
   border: 0.25em dashed #442a00;
   text-wrap: wrap;
   margin-left: 20%;
@@ -98,9 +98,8 @@ html {
   margin-left: 5%;
 }
 .image-text-container img {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+  margin-left: 15%;
+  width: 70%;
 }
 /* social media icons */
 .fa-instagram {
@@ -177,14 +176,19 @@ footer {
     margin-right: auto;
   }
   #homeBusiness {
-    position: absolute;
-    color: #442A00;
-    background-color: white;
-    padding: 0 1rem;
-    width: %;
-    border: 0.25em dashed #442a00;
-    text-wrap: wrap;
-    margin-left: 20%;
+    position: relative;
+    float: right;
+    padding: 1rem;
+    width: 40%;
+    margin-right: 5%;
+    top: 2rem;
+  }
+  .image-text-container {
+    position: relative;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+  }
     top: 1rem;
   }
   #home h2 {
@@ -205,5 +209,18 @@ footer {
   } 
 }
 @media (min-width: 1200px) {
-
+  #homeBusiness {
+    position: relative;
+    float: right;
+    padding: 1rem;
+    width: 40%;
+    margin-right: 5%;
+    top: 2rem;
+  }
+  .image-text-container {
+    position: relative;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+  }
 }
