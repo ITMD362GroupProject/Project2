@@ -26,7 +26,7 @@ html {
   float: left;
   width: 100%;
   position: relative;
-  border: 1em dashed #FFE1AF;
+  border: 0.25em dashed #FFE1AF;
 }
 #nav-bar1 ul {
   list-style-type: none;
@@ -48,30 +48,35 @@ html {
   color: FFE1AF;
   font-size: 3em;
   padding: 1em;
+  text-align: center;
 }
 #home main {
   width: 80%;
   padding: 1.2em;
 }
 #home h2 {
-  font-size: 2em;
-  color: #775113
+  font-size: 1.5em;
+  color: #775113;
+  line-height: 1.25em;
 }
 #homeBusiness a {
   color: #442A00;
-  font-size: 2em;
+  font-size: 1.5em;
   text-decoration: none;
+  line-height: 1.5em;
 }
 #home p {
   color: black;
-  font-size: 1.5em;
+  font-size: 1em;
   margin-left: 1em;
+  line-height: 1em;
 }
 #homeBusiness ul li {
-  font-size: 1.5em;
+  font-size: 1em;
   text-decoration: none;
   margin-left: 1em;
   color: black;
+  line-height: 1em;
 } 
 #homeBusiness ul {
   list-style-type: none;
@@ -79,28 +84,32 @@ html {
 #homeBusiness {
   position: absolute;
   color: #442A00;
-  top: 2rem;
   background-color: white;
   padding: 0 1rem;
-}
-.medium {
-  display: none;
-}
-.large {
-  display: none;
+  width: 60%;
+  border: 0.25em dashed #442a00;
+  text-wrap: wrap;
+  margin-left: 20%;
+  top: 1rem;
 }
 .image-text-container {
   position: relative;
-  margin: 5%;
+  width: 90%;
+  margin-left: 5%;
+}
+.image-text-container img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 /* social media icons */
 .fa-instagram {
-  background: #442a00;
-  color: #FFE1AF;
+  background-color: #FFE1AF;
+  color: #442a00;
 }
 .fa-facebook {
-  background: #442a00;
-  color: #FFE1AF;
+  background-color: #FFE1AF;
+  color: #442a00;
 }
 .fa {
   padding: 20px;
@@ -113,46 +122,88 @@ html {
 /* footer */
 footer {
   background-color: #AA7F39;
-  display: grid;
+  display: flex;
   justify-items: end;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
+  grid-template-columns: auto auto auto;
+  align-items: flex-start;
+  line-height: 1.5em;
+  text-wrap: wrap;
 }
 #footer img {
   height: auto;
-  width: 100px;
+  width: 20%;
+  float: left;
+}
+#footerLogo a {
+  color: #442a00;
+  font-size: 1.5em;
 }
 #footerLogo {
-  display: inline-block;
-  grid-column: 1 / 3;
+  display: block;
+  text-wrap: wrap;
+  margin: 5%;
+}
+#footerLinks a {
+  color: #442a00;
+  font-size: 1.5em;
 }
 #footerImportantInfo {
-  display: inline-block;
-  grid-column: 2 / 3;
+  display: block;
+  text-wrap: wrap;
+  margin: 5%;
 }
 #footerLinks {
-  display: inline-block;
-  grid-column: 2 / 3;
+  display: block;
+  text-wrap: wrap;
+  margin: 5%;
+}
+#footerLinks h3 {
+  font-size: 2em;
+}
+#footerLinks ul li {
+  text-decoration: none;
+  font-size: 1em;
+}
+#footerImportantInfo h3 {
+  font-size: 2em;
+}
+#footerImportantInfo p, #footerLogo a, #footerLinks a {
+  font-size: 1em;
 }
 @media (min-width: 900px) {
-  .small {
-    display: none;
+  .image-text-container img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .medium {
-    display: inline;
+  #homeBusiness {
+    position: absolute;
+    color: #442A00;
+    background-color: white;
+    padding: 0 1rem;
+    width: %;
+    border: 0.25em dashed #442a00;
+    text-wrap: wrap;
+    margin-left: 20%;
+    top: 1rem;
   }
-  .large {
-    display: none;
+  #home h2 {
+    font-size: 2em;
+    line-height: 1.5em;
   }
+  #homeBusiness a {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+  #home p {
+    font-size: 1.5em;
+    line-height: 1.25em;
+  }
+  #homeBusiness ul li {
+    font-size: 1.5em;
+    line-height: 1.25em;
+  } 
 }
 @media (min-width: 1200px) {
-  .small {
-    display: none;
-  }
-  .medium {
-    display: none;
-  }
-  .large {
-    display: inline;
-  }
+
 }
