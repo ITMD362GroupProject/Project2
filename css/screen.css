@@ -82,7 +82,7 @@ html {
   list-style-type: none;
 }
 #homeBusiness {
-  position: relative;
+  position: absolute;
   color: #442A00;
   background-color: white;
   padding: 0 1rem;
@@ -96,10 +96,12 @@ html {
   position: relative;
   width: 90%;
   margin-left: 5%;
+  display: grid;
 }
 .image-text-container img {
   margin-left: 15%;
   width: 70%;
+  top: 1rem;
 }
 /* social media icons */
 .fa-instagram {
@@ -121,14 +123,14 @@ html {
 /* footer */
 footer {
   background-color: #AA7F39;
-  display: flex;
   justify-items: end;
   grid-template-columns: auto auto auto;
   align-items: flex-start;
   line-height: 1.5em;
   text-wrap: wrap;
+  display: grid;
 }
-#footer img {
+#footerLogo img {
   height: auto;
   width: 20%;
   float: left;
@@ -213,13 +215,13 @@ footer {
     position: relative;
     float: right;
     padding: 1rem;
-    width: 40%;
+    width: 50%;
     margin-right: 5%;
     top: 2rem;
   }
   .image-text-container {
     position: relative;
-    width: 40%;
+    width: 50%;
     float: left;
     margin-left: 5%;
   }
