@@ -53,7 +53,6 @@ html {
 #home main {
   width: 80%;
   padding: 1.2em;
-  background-color: #FFE1AF;
 }
 #home h2 {
   font-size: 1.5em;
@@ -87,7 +86,7 @@ html {
   color: #442A00;
   background-color: white;
   padding: 0 1rem;
-  width: 70%;
+  width: 60%;
   border: 0.25em dashed #442a00;
   text-wrap: wrap;
   margin-left: 20%;
@@ -97,12 +96,11 @@ html {
   position: relative;
   width: 90%;
   margin-left: 5%;
-  display: grid;
 }
 .image-text-container img {
-  margin-left: 15%;
-  width: 70%;
-  top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 /* social media icons */
 .fa-instagram {
@@ -124,16 +122,21 @@ html {
 /* footer */
 footer {
   background-color: #AA7F39;
+  display: flex;
   justify-items: end;
   grid-template-columns: auto auto auto;
   align-items: flex-start;
   line-height: 1.5em;
   text-wrap: wrap;
-  display: grid;
+}
+#footer img {
+  height: auto;
+  width: 20%;
+  float: left;
 }
 #footerLogo a {
   color: #442a00;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 #footerLogo {
   display: block;
@@ -142,7 +145,7 @@ footer {
 }
 #footerLinks a {
   color: #442a00;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 #footerImportantInfo {
   display: block;
@@ -155,16 +158,16 @@ footer {
   margin: 5%;
 }
 #footerLinks h3 {
-  font-size: 1em;
+  font-size: 2em;
 }
 #footerLinks ul li {
   text-decoration: none;
-  font-size: 0.75em;
-}
-#footerImportantInfo h3 {
   font-size: 1em;
 }
-#footerImportantInfo p {
+#footerImportantInfo h3 {
+  font-size: 2em;
+}
+#footerImportantInfo p, #footerLogo a, #footerLinks a {
   font-size: 1em;
 }
 @media (min-width: 900px) {
@@ -174,18 +177,15 @@ footer {
     margin-right: auto;
   }
   #homeBusiness {
-    position: relative;
-    float: right;
-    padding: 1rem;
-    width: 40%;
-    margin-right: 5%;
-    top: 2rem;
-  }
-  .image-text-container {
-    position: relative;
-    width: 40%;
-    float: left;
-    margin-left: 5%;
+    position: absolute;
+    color: #442A00;
+    background-color: white;
+    padding: 0 1rem;
+    width: %;
+    border: 0.25em dashed #442a00;
+    text-wrap: wrap;
+    margin-left: 20%;
+    top: 1rem;
   }
   #home h2 {
     font-size: 2em;
@@ -205,22 +205,5 @@ footer {
   } 
 }
 @media (min-width: 1200px) {
-  #homeBusiness {
-    position: relative;
-    float: right;
-    padding: 1rem;
-    width: 50%;
-    margin-right: 5%;
-    top: 2rem;
-  }
-  .image-text-container {
-    position: relative;
-    width: 50%;
-    float: left;
-    margin-left: 5%;
-  }
-  footer {
-    position: absolute;
-    bottom: 0;
-  }
+
 }
