@@ -55,48 +55,46 @@ html {
   padding: 1.2em;
 }
 #home h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #775113;
-  line-height: 1.5em;
+  line-height: 1.25em;
 }
 #homeBusiness a {
   color: #442A00;
-  font-size: 2em;
+  font-size: 1.5em;
   text-decoration: none;
   line-height: 1.5em;
 }
 #home p {
   color: black;
-  font-size: 1.5em;
+  font-size: 1em;
   margin-left: 1em;
-  line-height: 1.25em;
+  line-height: 1em;
 }
 #homeBusiness ul li {
-  font-size: 1.5em;
+  font-size: 1em;
   text-decoration: none;
   margin-left: 1em;
   color: black;
-  line-height: 1.25em;
+  line-height: 1em;
 } 
 #homeBusiness ul {
   list-style-type: none;
 }
 #homeBusiness {
-  position: absolute;
   color: #442A00;
   background-color: white;
   padding: 0 1rem;
-  width: 60%;
+  width: 80%;
   border: 0.25em dashed #442a00;
   text-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-  top: 15%;
+  margin-left: 20%;
+  top: 1rem;
 }
 .image-text-container {
   position: relative;
   width: 90%;
-  margin: auto;
+  margin-left: 5%;
 }
 .image-text-container img {
   margin-left: auto;
@@ -105,12 +103,12 @@ html {
 }
 /* social media icons */
 .fa-instagram {
-  background: #442a00;
-  color: #FFE1AF;
+  background-color: #FFE1AF;
+  color: #442a00;
 }
 .fa-facebook {
-  background: #442a00;
-  color: #FFE1AF;
+  background-color: #FFE1AF;
+  color: #442a00;
 }
 .fa {
   padding: 20px;
@@ -155,12 +153,42 @@ footer {
   display: block;
   text-wrap: wrap;
 }
+#footer h3 {
+  font-size: 1.8em;
+}
 @media (min-width: 900px) {
   .image-text-container img {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
+  #homeBusiness {
+    position: absolute;
+    color: #442A00;
+    background-color: white;
+    padding: 0 1rem;
+    width: %;
+    border: 0.25em dashed #442a00;
+    text-wrap: wrap;
+    margin-left: 20%;
+    top: 1rem;
+  }
+  #home h2 {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+  #homeBusiness a {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+  #home p {
+    font-size: 1.5em;
+    line-height: 1.25em;
+  }
+  #homeBusiness ul li {
+    font-size: 1.5em;
+    line-height: 1.25em;
+  } 
 }
 @media (min-width: 1200px) {
 
