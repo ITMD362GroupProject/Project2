@@ -88,9 +88,9 @@ html {
   padding: 0 1rem;
   width: 70%;
   text-wrap: wrap;
-  margin-left: 20%;
   top: 1rem;
   margin-bottom: 5%;
+  margin-left: 15%;
 }
 .image-text-container {
   width: 90%;
@@ -130,11 +130,11 @@ footer {
 }
 #footerLogo img {
   height: auto;
-  width: 50%;
+  width: 80%;
 }
 #footerLogo a {
   color: #442a00;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 #footerLogo {
   display: block;
@@ -145,7 +145,7 @@ footer {
 }
 #footerLinks a {
   color: #442a00;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 #footerImportantInfo {
   display: block;
@@ -197,10 +197,18 @@ footer {
     display: block;
     float: left;
     width: 45%;
+    margin-left: auto;
   }
   .image-text-container img {
     display: block;
     float: right;
     width: 45%;
+    top: 1rem;
+  }
+  .image-text-container {
+    display: absolute;
+    top: 1rem;
+    width: 100%;
+    margin-bottom: 5%;
   }
 }
