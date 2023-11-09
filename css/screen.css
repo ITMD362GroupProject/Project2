@@ -198,7 +198,7 @@ footer {
     float: right;
     width: 40%;
     margin-left: auto;
-    margin-top: 2.5%
+    margin-top: 0;
   }
   .image-text-container img {
     display: block;
