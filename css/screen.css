@@ -86,18 +86,21 @@ html {
   color: #442A00;
   background-color: white;
   padding: 0 1rem;
-  width: 50%;
+  width: 70%;
   text-wrap: wrap;
   margin-left: 20%;
   top: 1rem;
+  margin-bottom: 5%;
 }
 .image-text-container {
   width: 90%;
   margin-left: 5%;
 }
 .image-text-container img {
-  width: 50%;
-  margin: auto;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* social media icons */
 .fa-instagram {
@@ -137,6 +140,8 @@ footer {
   display: block;
   text-wrap: wrap;
   margin-left: 5%;
+  margin-top: 2.5%;
+
 }
 #footerLinks a {
   color: #442a00;
@@ -151,19 +156,23 @@ footer {
   display: block;
   text-wrap: wrap;
   margin-right: 5%;
+  margin-top: 2.5%;
 }
 #footerLinks h3 {
-  font-size: 2em;
+  font-size: 1.25em;
 }
 #footerLinks ul li {
   text-decoration: none;
   font-size: 1em;
 }
 #footerImportantInfo h3 {
-  font-size: 2em;
+  font-size: 1.25em;
 }
 #footerImportantInfo p, #footerLogo a, #footerLinks a {
   font-size: 1em;
+}
+#footerLogo ul li {
+  text-decoration: none;
 }
 @media (min-width: 900px) {
   #home h2 {
@@ -184,5 +193,14 @@ footer {
   } 
 }
 @media (min-width: 1200px) {
-
+  #homeBusiness {
+    display: block;
+    float: left;
+    width: 45%;
+  }
+  .image-text-container img {
+    display: block;
+    float: right;
+    width: 45%;
+  }
 }
