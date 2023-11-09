@@ -196,13 +196,13 @@ footer {
   #homeBusiness {
     display: block;
     float: right;
-    width: 50%;
+    width: 45%;
     margin-left: auto;
   }
   .image-text-container img {
     display: block;
     float: left;
-    width: 50%;
+    width: 45%;
     top: 1rem;
   }
   .image-text-container {
