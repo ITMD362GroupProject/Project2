@@ -209,8 +209,10 @@ footer {
   .image-text-container {
     display: absolute;
     margin-top: 2.5%;
-    width: 80%;
+    width: 85%;
     margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
   }
   #home {
     display: grid;
