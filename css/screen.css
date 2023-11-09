@@ -208,7 +208,7 @@ footer {
   .image-text-container {
     display: absolute;
     top: 1rem;
-    width: 100%;
+    width: 1100px;
     margin-bottom: 5%;
   }
   #home {
