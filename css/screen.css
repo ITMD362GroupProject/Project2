@@ -196,19 +196,20 @@ footer {
   #homeBusiness {
     display: block;
     float: right;
-    width: 45%;
+    width: 40%;
     margin-left: auto;
+    margin-top: 2.5%
   }
   .image-text-container img {
     display: block;
     float: left;
-    width: 45%;
+    width: 40%;
     top: 1rem;
   }
   .image-text-container {
     display: absolute;
-    top: 1rem;
-    width: 1100px;
+    margin-top: 2.5%;
+    width: 90%;
     margin-bottom: 5%;
   }
   #home {
