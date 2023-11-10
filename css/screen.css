@@ -255,13 +255,6 @@ footer {
 }
 
 /* Contact Us */
-#contact h1{
-	background-color: #AA7F39;
-	color: #442A00;
-	font-size: 3em;
-	padding: 1em;
-	text-align: center;
-}
 
 /* Mobile menu */
 @media (max-width: 767px) {
