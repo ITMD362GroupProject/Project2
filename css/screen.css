@@ -255,6 +255,14 @@ footer {
 }
 
 /* Contact Us */
+#big-bean-header {
+  background-color: #AA7F39;
+  color: #442A00;
+  font-size: 3em;
+  padding: 1em;
+  text-align: center;
+}
+
 #contact {
   text-align: center;
   margin: 0 auto;
