@@ -218,3 +218,11 @@ footer {
     display: grid;
   }
 }
+
+/*Menu Page Css */
+.menu-images-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.25em 0;
+}
+
