@@ -260,12 +260,17 @@ footer {
 /* Mobile menu */
 @media (max-width: 767px) {
   .menu-images-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: block; 
+    text-align: center; 
+  }
+
+  .menu-images-container img {
+    width: 100%; 
+    max-width: none; 
+    margin-bottom: 1.25em; 
   }
 
   .order-button {
-    margin: 1.25em 0;
+    margin: 1.25em auto; 
   }
 }
