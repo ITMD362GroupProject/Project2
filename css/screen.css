@@ -235,9 +235,6 @@ footer {
   cursor: pointer;
 }
 
-.menu-images-container img:hover {
-  transform: scale(1.1);
-}
 
 .order-button {
   background-color: #442a00;
