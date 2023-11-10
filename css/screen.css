@@ -261,6 +261,7 @@ footer {
 	font-size: 3em;
 	padding: 1em;
 	text-align: center;
+}
 
 /* Mobile menu */
 @media (max-width: 767px) {
