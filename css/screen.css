@@ -221,17 +221,18 @@ footer {
 
 /*Menu Page Css */
 .menu-images-container {
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
   margin: 1.25em 0;
 }
 
 .menu-images-container img {
-  max-width: 11.25em; 
+  width: 100%; 
+  max-width: 20em; 
   height: auto;
-  border-radius: 0.625em; 
-  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1); 
+  border-radius: 0.625em;
+  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  margin-bottom: 1.25em; 
 }
 
 .menu-images-container img:hover {
@@ -241,12 +242,12 @@ footer {
 .order-button {
   background-color: #442a00;
   color: #fff;
-  padding: 0.9375em 1.5625em; 
+  padding: 0.9375em 1.5625em;
   font-size: 1.2em;
   border: none;
   cursor: pointer;
-  border-radius: 1.5625em; 
-  margin: 1.25em 0;
+  border-radius: 1.5625em;
+  margin: 1.25em auto; 
   box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease-in-out;
 }
