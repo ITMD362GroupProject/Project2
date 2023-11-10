@@ -15,4 +15,8 @@ function showSlides() {
 }
 //end slidshow js
 
-// Menu expanding js
+// Menu button js
+function redirectToShop() {
+    // Replace the URL with the desired destination
+    window.location.href = "https://thebigbeansevernapark.square.site/s/shop";
+  }
