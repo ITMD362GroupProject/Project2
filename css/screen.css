@@ -271,13 +271,13 @@ footer {
 #contact h2 {
   font-size: 2em;
   color: #442A00;
+  padding: 20px;
 }
 
 #contact-form {
   width: 80%;
   max-width: 400px; 
   margin: 0 auto;
-  padding: 20px;
 }
 
 #contact-form label {
