@@ -239,7 +239,6 @@ footer {
   transform: scale(1.1);
 }
 
-
 .menu-images-container img.expanded {
   position: fixed;
   top: 0;
@@ -263,5 +262,12 @@ footer {
   .menu-images-container img {
     width: 48%; 
     margin-bottom: 0; 
+  }
+}
+
+/* Desktop menu */
+@media (min-width: 1200px) {
+  .menu-images-container {
+    flex-direction: column;
   }
 }

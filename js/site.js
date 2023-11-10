@@ -16,3 +16,12 @@ function showSlides() {
 //end slidshow js
 
 // Menu expanding js
+var images = document.querySelectorAll('.menu-images-container img');
+
+// Add a click event listener to each image
+images.forEach(function(img) {
+  img.addEventListener('click', function() {
+    // Toggle the 'expanded' class
+    this.classList.toggle('expanded');
+  });
+});
