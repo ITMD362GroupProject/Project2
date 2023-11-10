@@ -240,16 +240,23 @@ footer {
 }
 
 
-.menu-images-container img.expanded {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw; 
-  height: 100vh; 
-  z-index: 1000;
-  border-radius: 0;
-  box-shadow: none;
-  cursor: zoom-out; 
+
+.order-button {
+  background-color: #442a00;
+  color: #fff;
+  padding: 0.9375em 1.5625em;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  border-radius: 1.5625em;
+  margin: 1.25em auto; 
+  display: block; 
+  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.order-button:hover {
+  background-color: #331f00;
 }
 
 /* Mobile menu */
@@ -259,9 +266,3 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
   }
-
-  .menu-images-container img {
-    width: 48%; 
-    margin-bottom: 0; 
-  }
-}
