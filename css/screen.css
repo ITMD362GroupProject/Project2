@@ -238,3 +238,19 @@ footer {
   transform: scale(1.1);
 }
 
+.order-button {
+  background-color: #442a00;
+  color: #fff;
+  padding: 0.9375em 1.5625em; 
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  border-radius: 1.5625em; 
+  margin: 1.25em 0;
+  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.order-button:hover {
+  background-color: #331f00;
+}
