@@ -219,27 +219,25 @@ footer {
   }
 }
 
-/*Menu Page Css */
+/* Menu Page Css */
 .menu-images-container {
   text-align: center; 
   margin: 1.25em 0;
 }
 
 .menu-images-container img {
-  width: 100%;
+  max-width: 100%; /* Set a maximum width for the images */
   height: auto;
   border-radius: 0.625em;
   box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
   margin-bottom: 1.25em;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .menu-images-container img:hover {
   transform: scale(1.1);
 }
-
-
 
 .order-button {
   background-color: #442a00;
@@ -249,8 +247,8 @@ footer {
   border: none;
   cursor: pointer;
   border-radius: 1.5625em;
-  margin: 1.25em auto; 
-  display: block; 
+  margin: 1.25em auto;
+  display: block;
   box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease-in-out;
 }
@@ -260,9 +258,14 @@ footer {
 }
 
 /* Mobile menu */
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   .menu-images-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
   }
+
+  .order-button {
+    margin: 1.25em 0;
+  }
+}
