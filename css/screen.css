@@ -254,6 +254,60 @@ footer {
   background-color: #331f00;
 }
 
+/* Contact Us */
+#big-bean-header {
+  background-color: #AA7F39;
+  color: #442A00;
+  font-size: 3em;
+  padding: 1em;
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#contact h2 {
+  font-size: 2em;
+  color: #442A00;
+  padding: 20px;
+}
+
+#contact-form {
+  width: 80%;
+  max-width: 400px; 
+  margin: 0 auto;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+#contact-form button {
+  background-color: #442a00;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  border-radius: 1.5625em;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact-form button:hover {
+  background-color: #331f00;
+}
+
 /* Mobile menu */
 @media (max-width: 767px) {
   .menu-images-container {
