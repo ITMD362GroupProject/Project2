@@ -218,13 +218,11 @@ footer {
     display: grid;
   }
 }
-
 /* Menu Page Css */
 .menu-images-container {
   text-align: center; 
   margin: 1.25em 0;
 }
-
 .menu-images-container img {
   max-width: 100%; /* Set a maximum width for the images */
   height: auto;
@@ -234,8 +232,6 @@ footer {
   margin-bottom: 1.25em;
   cursor: pointer;
 }
-
-
 .order-button {
   background-color: #442a00;
   color: #fff;
@@ -249,11 +245,9 @@ footer {
   box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease-in-out;
 }
-
 .order-button:hover {
   background-color: #331f00;
 }
-
 /* Contact Us */
 #big-bean-header {
   background-color: #AA7F39;
@@ -262,29 +256,24 @@ footer {
   padding: 1em;
   text-align: center;
 }
-
 #contact {
   text-align: center;
   margin: 0 auto;
 }
-
 #contact h2 {
   font-size: 2em;
   color: #442A00;
   padding: 20px;
 }
-
 #contact-form {
   width: 80%;
   max-width: 400px; 
   margin: 0 auto;
 }
-
 #contact-form label {
   display: block;
   margin-bottom: 8px;
 }
-
 #contact-form input,
 #contact-form textarea {
   width: 100%;
@@ -292,7 +281,6 @@ footer {
   margin-bottom: 16px;
   box-sizing: border-box;
 }
-
 #contact-form button {
   background-color: #442a00;
   color: #fff;
@@ -303,25 +291,21 @@ footer {
   border-radius: 1.5625em;
   transition: background-color 0.3s ease-in-out;
 }
-
 #contact-form button:hover {
   background-color: #331f00;
 }
-
 /* Mobile menu */
 @media (max-width: 767px) {
   .menu-images-container {
     display: block; 
     text-align: center; 
   }
-
   .menu-images-container img {
     width: 100%; 
     max-width: none; 
     margin-bottom: 1.25em; 
     box-sizing: border-box; 
   }
-
   .order-button {
     margin: 1.25em auto; 
   }
