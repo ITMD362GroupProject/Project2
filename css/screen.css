@@ -1,6 +1,6 @@
 @font-face {
   font-family: SpecialElite;
-  src: url(media/SpecialElite-Regular.ttf);
+  src: url("media/specialelite-regular.ttf");
 }
 html {
   font-family: "SpecialElite", "LectraBold", "Distressed Telegraph", "Architects Daughter", sans-serif;
