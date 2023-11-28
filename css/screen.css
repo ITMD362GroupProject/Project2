@@ -310,3 +310,8 @@ footer {
     margin: 1.25em auto; 
   }
 }
+@media (max-width: 560px) {
+  #nav-contain li ul a {
+    font-size: 0.75em;
+  }
+}
