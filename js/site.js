@@ -29,8 +29,10 @@ function validateForm() {
   return true;
 }
 // Add an event listener
+document.addEventListener("DOMContentLoaded", function () {
 document.getElementById("contact-form").addEventListener("submit", function(event) {
   if (!validateForm()) {
   event.preventDefault(); 
   }
-}
+});
+});
