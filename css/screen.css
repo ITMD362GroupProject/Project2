@@ -1,9 +1,5 @@
-@font-face {
-  font-family: SpecialElite;
-  src: url("media/specialelite-regular.ttf");
-}
 html {
-  font-family: "SpecialElite", "LectraBold", "Distressed Telegraph", "Architects Daughter", sans-serif;
+  font-family: "LectraBold", "Distressed Telegraph", "Architects Daughter", sans-serif;
 } 
 /* nav bar css */
 #nav-bar1 { 
@@ -310,8 +306,9 @@ footer {
     margin: 1.25em auto; 
   }
 }
-@media (max-width: 560px) {
+@media (max-width: 700px) {
   #nav-contain li ul a {
     font-size: 0.75em;
+    
   }
 }
