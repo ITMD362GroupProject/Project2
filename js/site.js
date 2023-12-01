@@ -1,26 +1,8 @@
-//This is the picture Slideshow js
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < 9; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 3000); // Change image every 3 seconds
-}
-//end slidshow js
-
 // Menu button js
 function redirectToShop() {
     // Replace the URL with the desired destination
     window.location.href = "https://thebigbeansevernapark.square.site/s/shop";
   }
-
 //Contact Us Form Autofill
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -34,22 +16,18 @@ document.addEventListener("DOMContentLoaded", function () {
   if (storedSubject) document.getElementById("subject").value = storedSubject;
   if (storedMessage) document.getElementById("message").value = storedMessage;
 });
-
 //Form Validation for Incomplete Fields
 function validateForm() {
   var name = document.getElementById("name").value;
   var email = document.getElementById("email").value;
   var subject = document.getElementById("subject").value;
   var message = document.getElementById("message").value;
-
   if (name.trim() === "" || email.trim() === "" || subject.trim() === "" || message.trim() === "") {
     alert("Please fill in all required fields");
     return false;
   }
-  
   return true;
 }
-
 // Add an event listener
 document.getElementById("contact-form").addEventListener("submit", function(event) {
   if (!validateForm()) {

@@ -1,9 +1,5 @@
-@font-face {
-  font-family: SpecialElite;
-  src: url("media/specialelite-regular.ttf");
-}
 html {
-  font-family: "SpecialElite", "LectraBold", "Distressed Telegraph", "Architects Daughter", sans-serif;
+  font-family: "LectraBold", "Distressed Telegraph", "Architects Daughter", sans-serif;
 } 
 /* nav bar css */
 #nav-bar1 { 
@@ -87,7 +83,7 @@ html {
   background-color: white;
   padding: 0 1rem;
   width: 70%;
-  text-wrap: wrap;
+  overflow-wrap: break-word; 
   top: 1rem;
   margin-bottom: 5%;
   margin-left: 15%;
@@ -125,7 +121,7 @@ footer {
   display: flex;
   align-items: flex-start;
   line-height: 1.5em;
-  text-wrap: wrap;
+  overflow-wrap: break-word; 
   margin-top: 5%
 }
 #footerLogo img {
@@ -138,7 +134,7 @@ footer {
 }
 #footerLogo {
   display: block;
-  text-wrap: wrap;
+  overflow-wrap: break-word; 
   margin-left: 5%;
   margin-top: 2.5%;
 
@@ -149,12 +145,12 @@ footer {
 }
 #footerImportantInfo {
   display: block;
-  text-wrap: wrap;
+  overflow-wrap: break-word; 
   margin: 5%;
 }
 #footerLinks {
   display: block;
-  text-wrap: wrap;
+  overflow-wrap: break-word; 
   margin-right: 5%;
   margin-top: 2.5%;
 }
@@ -207,7 +203,7 @@ footer {
     top: 1rem;
   }
   .image-text-container {
-    display: absolute;
+    position: absolute;
     margin-top: 2.5%;
     width: 85%;
     margin-bottom: 5%;
@@ -308,5 +304,10 @@ footer {
   }
   .order-button {
     margin: 1.25em auto; 
+  }
+}
+@media (max-width: 700px) {
+  #nav-contain li ul a {
+    font-size: 0.75em;
   }
 }
