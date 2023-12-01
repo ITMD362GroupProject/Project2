@@ -197,13 +197,14 @@ footer {
     margin-top: 0;
   }
   .image-text-container img {
+    position: relative;
     display: block;
     float: left;
     width: 40%;
     top: 1rem;
   }
   .image-text-container {
-    position: absolute;
+    display: block;
     margin-top: 2.5%;
     width: 85%;
     margin-bottom: 5%;
