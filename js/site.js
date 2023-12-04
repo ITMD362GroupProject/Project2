@@ -30,9 +30,11 @@ function validateForm() {
 }
 // Add an event listener
 document.addEventListener("DOMContentLoaded", function () {
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-  if (!validateForm()) {
-  event.preventDefault(); 
-  }
-});
+  document.getElementById("contact-form").addEventListener("submit", function (event) {
+    if (!validateForm()) {
+      event.preventDefault();
+    } else {
+      alert("Thank you for signing up!");
+    }
+  });
 });
