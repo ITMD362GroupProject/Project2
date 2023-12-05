@@ -5,7 +5,7 @@ html {
 #nav-bar1 { 
   background-color: #442A00;
   overflow: hidden;
-  font-size: 1.875em;
+  font-size: 1em;
 }
 #onpage1 {
   background-color: #442A00;
@@ -13,7 +13,7 @@ html {
 }
 #nav-bar1 ul li a {
   display: block;
-  padding: 10px 20px;
+  padding: 5px 10px;
   color: #FFE1AF;
   text-decoration: none;
   background-color: #442A00;
@@ -187,7 +187,10 @@ footer {
   #homeBusiness ul li {
     font-size: 1.5em;
     line-height: 1.25em;
-  } 
+  }
+  #nav-bar1 {
+    font-size: 1.8em;
+  }  
 }
 @media (min-width: 1200px) {
   #homeBusiness {
@@ -214,6 +217,9 @@ footer {
   }
   #home {
     display: grid;
+  }
+  #nav-bar1 {
+    font-size: 1.8em;
   }
 }
 /* Menu Page Css */
