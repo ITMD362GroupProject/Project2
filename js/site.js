@@ -29,8 +29,12 @@ function validateForm() {
   return true;
 }
 // Add an event listener
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-  if (!validateForm()) {
-  event.preventDefault(); 
-  }
-}
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("contact-form").addEventListener("submit", function (event) {
+    if (!validateForm()) {
+      event.preventDefault();
+    } else {
+      alert("Thank you for signing up!");
+    }
+  });
+});

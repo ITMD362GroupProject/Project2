@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
   <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
   <link rel="stylesheet" media="screen" href="css/screen.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js"></script>
 </head>
@@ -22,37 +23,43 @@
       </div>
   </nav>
   </header>
-  <section id="contact">
+  <section id="contact-f">
   <h2>Contact Us</h2>
-    <form id="contact-form" autocomplete="on" method="get" action="null">
+	<p>Enjoyed our cafe? Fill out this form to stay up-to-date with our latest cafe concoctions</p>
+    <form id="contact-form" autocomplete="on" method="get" action="#null">
       <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
       <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
       <label for="subject-line">Subject:</label>
-        <input type="subject" id="subject-line" name="subject-line" required>
+        <input type="text" id="subject-line" name="subject-line" required>
       <label for="message">Message:</label>
       <textarea id="message" name="message" rows="4" required></textarea>
-      <button type="submit">Submit</button>
+      <button type="submit">Stay Caffeinated!</button>
     </form>
   </section>
-    <footer><div class="grid-container">
-  <div id="footerLogo" class="grid-item">
-    <img src="media/colorlogo.jpg" alt="The Big Bean">
-    <p>The Big Bean &trade;</p>
-    <a href="#top">Back to Top of Page</a>
+  <footer>
+  <div id="footerLogo">
+    <ul>
+      <li><img src="media/colorlogo.jpg" alt="The Big Bean &trade;"></li>
+      <li><a href="#top">Back to Top of Page</a></li>
+    </ul>
   </div>
-  <div id="footerImportantInfo" class="grid-item">
-    <p>558 Baltimore Annapolis Blvd. Severna Park, MD, 21146 | 410.384.7744</p>
-    <p>888 Bestgate Rd. Suite 110, Annapolis, MD, 21401 | 410.216.2911</p>
-    <a href="https://www.facebook.com/TheBigBeanMD" class="fa fa-facebook"></a>
-    <a href="https://www.instagram.com/bigbeancoffeehouse/?hl=en" class="fa fa-instagram"></a>
+  <div id="footerImportantInfo">
+    <h3>Location Information: </h3>
+      <p>558 Baltimore Annapolis Blvd. Severna Park, MD, 21146 | 410.384.7744</p>
+      <p>888 Bestgate Rd. Suite 110, Annapolis, MD, 21401 | 410.216.2911</p>
   </div>
-  <div id="footerLinks" class="grid-item">
-    <a href="https://squareup.com/gift/28YXGX2N3HY2B/check-balance">Check Gift Card Balance</a>
-    <a href="https://thebigbeansevernapark.square.site/s/shop">Shop Online</a>
-    <a href="https://squareup.com/gift/28YXGX2N3HY2B/order">Buy E-Gift Card Balance</a>
+  <div id="footerLinks">
+    <h3>Links: </h3>
+      <ul>
+        <li><a href="https://squareup.com/gift/28YXGX2N3HY2B/check-balance">Check Gift Card Balance</a></li>
+        <li><a href="https://thebigbeansevernapark.square.site/s/shop">Shop Online</a></li>
+        <li><a href="https://squareup.com/gift/28YXGX2N3HY2B/order">Buy E-Gift Card Balance</a></li>
+        <li><a href="https://www.facebook.com/TheBigBeanMD" class="fa fa-facebook"></a></li>
+        <li><a href="https://www.instagram.com/bigbeancoffeehouse/?hl=en" class="fa fa-instagram"></a></li>
+      </ul>
   </div>
-  </div></footer>
+  </footer>
 </body>
 </html>
