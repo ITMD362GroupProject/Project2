@@ -246,6 +246,27 @@ footer {
 .order-button:hover {
   background-color: #331f00;
 }
+/* Mobile menu */
+@media (max-width: 767px) {
+  .menu-images-container {
+    display: block; 
+    text-align: center; 
+  }
+  .menu-images-container img {
+    width: 100%; 
+    max-width: none; 
+    margin-bottom: 1.25em; 
+    box-sizing: border-box; 
+  }
+  .order-button {
+    margin: 1.25em auto; 
+  }
+}
+@media (max-width: 700px) {
+  #nav-contain li ul a {
+    font-size: 0.75em;
+  }
+}
 /* Contact Us */
 #big-bean-header {
   background-color: #AA7F39;
@@ -296,25 +317,4 @@ footer {
 }
 #contact-form button:hover {
   background-color: #331f00;
-}
-/* Mobile menu */
-@media (max-width: 767px) {
-  .menu-images-container {
-    display: block; 
-    text-align: center; 
-  }
-  .menu-images-container img {
-    width: 100%; 
-    max-width: none; 
-    margin-bottom: 1.25em; 
-    box-sizing: border-box; 
-  }
-  .order-button {
-    margin: 1.25em auto; 
-  }
-}
-@media (max-width: 700px) {
-  #nav-contain li ul a {
-    font-size: 0.75em;
-  }
 }
